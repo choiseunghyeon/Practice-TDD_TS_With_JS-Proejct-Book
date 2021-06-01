@@ -1,0 +1,23 @@
+{
+  "name": "practice-tdd_ts_with_js-proejct-book",
+  "version": "1.0.0",
+  "description": "자바스크립트 프론트엔드 프로젝트 가이드 책을 통해 각 프로젝트를 TDD를 적용해 진행하고 마지막으로 TS로도 구현해본다.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/choiseunghyeon/Practice-TDD_TS_With_JS-Proejct-Book.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/choiseunghyeon/Practice-TDD_TS_With_JS-Proejct-Book/issues"
+  },
+  "homepage": "https://github.com/choiseunghyeon/Practice-TDD_TS_With_JS-Proejct-Book#readme"
+}
