@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="userInput">    
+        <button data-value="가위">가위</button>
+        <button data-value="바위">바위</button>
+        <button data-value="보">보</button>
+    </div>
+    
+    <div id="result"></div>
+
+    <script src="./index.js"></script>
+    <script>
+        document.querySelector("#userInput").addEventListener('click', (e) => {
+            const computerInput = getOneOfRockScissorPaper();
+            const userInput = e.target.dataset.value
+            const result = verdictRockScissorPaper(computerInput, userInput);
+            document.querySelector('#result').innerText = result;
+        })
+    </script>
+</body>
+</html>
